@@ -7,18 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A53965002AA7E2F100CBC384 /* BarGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53964FF2AA7E2F100CBC384 /* BarGraph.swift */; };
+		A53AEC282A9E51CA00B95361 /* UploadImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53AEC272A9E51CA00B95361 /* UploadImageViewModel.swift */; };
+		A53AEC2B2A9E527D00B95361 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = A53AEC2A2A9E527D00B95361 /* FirebaseAuth */; };
+		A53AEC2D2A9E527D00B95361 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = A53AEC2C2A9E527D00B95361 /* FirebaseFirestore */; };
+		A53AEC2F2A9E527D00B95361 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A53AEC2E2A9E527D00B95361 /* FirebaseFirestoreSwift */; };
+		A53AEC312A9E527D00B95361 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = A53AEC302A9E527D00B95361 /* FirebaseStorage */; };
+		A53AEC332A9E737700B95361 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53AEC322A9E737700B95361 /* RegisterViewModel.swift */; };
+		A53AEC352A9E73DF00B95361 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53AEC342A9E73DF00B95361 /* RegisterView.swift */; };
+		A53AEC372A9E75C700B95361 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53AEC362A9E75C700B95361 /* ProfileView.swift */; };
+		A53AEC3A2A9EE64000B95361 /* MeikLogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A53AEC392A9EE64000B95361 /* MeikLogo.jpg */; };
 		A56455332A9D406C00E47B5B /* MeikDataBaseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56455322A9D406C00E47B5B /* MeikDataBaseApp.swift */; };
-		A56455352A9D406C00E47B5B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56455342A9D406C00E47B5B /* ContentView.swift */; };
+		A56455352A9D406C00E47B5B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56455342A9D406C00E47B5B /* MainView.swift */; };
 		A56455372A9D406D00E47B5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A56455362A9D406D00E47B5B /* Assets.xcassets */; };
 		A564553A2A9D406D00E47B5B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A56455392A9D406D00E47B5B /* Preview Assets.xcassets */; };
+		A56455512A9D472A00E47B5B /* ImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56455502A9D472A00E47B5B /* ImageExtensions.swift */; };
+		A56455572A9D498C00E47B5B /* MeikCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A56455562A9D498C00E47B5B /* MeikCardView.swift */; };
+		A5D40DEA2A9D4A3300E639C0 /* MeikModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D40DE92A9D4A3300E639C0 /* MeikModel.swift */; };
+		A5D40DEC2A9D4DF800E639C0 /* 6KihrwCTtOO3vA7yAU3Q9K3j6gu1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A5D40DEB2A9D4DF800E639C0 /* 6KihrwCTtOO3vA7yAU3Q9K3j6gu1.jpg */; };
+		A5D40DEE2A9D501200E639C0 /* SearchTokenMeikListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D40DED2A9D501200E639C0 /* SearchTokenMeikListView.swift */; };
+		A5D40DF02A9D503A00E639C0 /* MeikTokenListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D40DEF2A9D503A00E639C0 /* MeikTokenListViewModel.swift */; };
+		A5D40DF82A9D514300E639C0 /* MeikListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D40DF72A9D514300E639C0 /* MeikListViewModel.swift */; };
+		A5D40E002A9D547800E639C0 /* SaveMeik.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D40DFF2A9D547800E639C0 /* SaveMeik.swift */; };
+		A5D40E042A9D5B7C00E639C0 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D40E032A9D5B7C00E639C0 /* MainViewModel.swift */; };
+		A5D40E062A9D5BCC00E639C0 /* LogIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D40E052A9D5BCC00E639C0 /* LogIn.swift */; };
+		A5D40E082A9D5BF700E639C0 /* LogInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D40E072A9D5BF700E639C0 /* LogInViewModel.swift */; };
+		A5D40E0A2A9D63F800E639C0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A5D40E092A9D63F700E639C0 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A53964FF2AA7E2F100CBC384 /* BarGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarGraph.swift; sourceTree = "<group>"; };
+		A53AEC272A9E51CA00B95361 /* UploadImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadImageViewModel.swift; sourceTree = "<group>"; };
+		A53AEC322A9E737700B95361 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		A53AEC342A9E73DF00B95361 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		A53AEC362A9E75C700B95361 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		A53AEC382A9E8A9B00B95361 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A53AEC392A9EE64000B95361 /* MeikLogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MeikLogo.jpg; sourceTree = "<group>"; };
 		A564552F2A9D406C00E47B5B /* MeikDataBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeikDataBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A56455322A9D406C00E47B5B /* MeikDataBaseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeikDataBaseApp.swift; sourceTree = "<group>"; };
-		A56455342A9D406C00E47B5B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A56455342A9D406C00E47B5B /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		A56455362A9D406D00E47B5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A56455392A9D406D00E47B5B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A56455502A9D472A00E47B5B /* ImageExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExtensions.swift; sourceTree = "<group>"; };
+		A56455562A9D498C00E47B5B /* MeikCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeikCardView.swift; sourceTree = "<group>"; };
+		A5D132812ADB8F3F00305BB7 /* MeikDataBase.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MeikDataBase.entitlements; sourceTree = "<group>"; };
+		A5D40DE92A9D4A3300E639C0 /* MeikModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeikModel.swift; sourceTree = "<group>"; };
+		A5D40DEB2A9D4DF800E639C0 /* 6KihrwCTtOO3vA7yAU3Q9K3j6gu1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6KihrwCTtOO3vA7yAU3Q9K3j6gu1.jpg; sourceTree = "<group>"; };
+		A5D40DED2A9D501200E639C0 /* SearchTokenMeikListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTokenMeikListView.swift; sourceTree = "<group>"; };
+		A5D40DEF2A9D503A00E639C0 /* MeikTokenListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeikTokenListViewModel.swift; sourceTree = "<group>"; };
+		A5D40DF72A9D514300E639C0 /* MeikListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeikListViewModel.swift; sourceTree = "<group>"; };
+		A5D40DFF2A9D547800E639C0 /* SaveMeik.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveMeik.swift; sourceTree = "<group>"; };
+		A5D40E032A9D5B7C00E639C0 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		A5D40E052A9D5BCC00E639C0 /* LogIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogIn.swift; sourceTree = "<group>"; };
+		A5D40E072A9D5BF700E639C0 /* LogInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewModel.swift; sourceTree = "<group>"; };
+		A5D40E092A9D63F700E639C0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,12 +68,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A53AEC2B2A9E527D00B95361 /* FirebaseAuth in Frameworks */,
+				A53AEC312A9E527D00B95361 /* FirebaseStorage in Frameworks */,
+				A53AEC2D2A9E527D00B95361 /* FirebaseFirestore in Frameworks */,
+				A53AEC2F2A9E527D00B95361 /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A52089B02ABE19A90004CB8F /* images */ = {
+			isa = PBXGroup;
+			children = (
+				A5D40DEB2A9D4DF800E639C0 /* 6KihrwCTtOO3vA7yAU3Q9K3j6gu1.jpg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		A56455262A9D406C00E47B5B = {
 			isa = PBXGroup;
 			children = (
@@ -51,9 +105,18 @@
 		A56455312A9D406C00E47B5B /* MeikDataBase */ = {
 			isa = PBXGroup;
 			children = (
+				A5D132812ADB8F3F00305BB7 /* MeikDataBase.entitlements */,
+				A52089B02ABE19A90004CB8F /* images */,
+				A53AEC382A9E8A9B00B95361 /* Info.plist */,
+				A53AEC392A9EE64000B95361 /* MeikLogo.jpg */,
 				A56455322A9D406C00E47B5B /* MeikDataBaseApp.swift */,
-				A56455342A9D406C00E47B5B /* ContentView.swift */,
+				A56455342A9D406C00E47B5B /* MainView.swift */,
+				A564554F2A9D471B00E47B5B /* Extensions */,
+				A5D40DE82A9D4A1F00E639C0 /* Models */,
+				A56455492A9D455100E47B5B /* ViewModel */,
+				A564554A2A9D456B00E47B5B /* Views */,
 				A56455362A9D406D00E47B5B /* Assets.xcassets */,
+				A5D40E092A9D63F700E639C0 /* GoogleService-Info.plist */,
 				A56455382A9D406D00E47B5B /* Preview Content */,
 			);
 			path = MeikDataBase;
@@ -65,6 +128,49 @@
 				A56455392A9D406D00E47B5B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A56455492A9D455100E47B5B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A5D40DEF2A9D503A00E639C0 /* MeikTokenListViewModel.swift */,
+				A5D40DF72A9D514300E639C0 /* MeikListViewModel.swift */,
+				A5D40DFF2A9D547800E639C0 /* SaveMeik.swift */,
+				A5D40E032A9D5B7C00E639C0 /* MainViewModel.swift */,
+				A5D40E072A9D5BF700E639C0 /* LogInViewModel.swift */,
+				A53AEC272A9E51CA00B95361 /* UploadImageViewModel.swift */,
+				A53AEC322A9E737700B95361 /* RegisterViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A564554A2A9D456B00E47B5B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A56455562A9D498C00E47B5B /* MeikCardView.swift */,
+				A5D40DED2A9D501200E639C0 /* SearchTokenMeikListView.swift */,
+				A5D40E052A9D5BCC00E639C0 /* LogIn.swift */,
+				A53AEC342A9E73DF00B95361 /* RegisterView.swift */,
+				A53AEC362A9E75C700B95361 /* ProfileView.swift */,
+				A53964FF2AA7E2F100CBC384 /* BarGraph.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A564554F2A9D471B00E47B5B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A56455502A9D472A00E47B5B /* ImageExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A5D40DE82A9D4A1F00E639C0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A5D40DE92A9D4A3300E639C0 /* MeikModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +189,12 @@
 			dependencies = (
 			);
 			name = MeikDataBase;
+			packageProductDependencies = (
+				A53AEC2A2A9E527D00B95361 /* FirebaseAuth */,
+				A53AEC2C2A9E527D00B95361 /* FirebaseFirestore */,
+				A53AEC2E2A9E527D00B95361 /* FirebaseFirestoreSwift */,
+				A53AEC302A9E527D00B95361 /* FirebaseStorage */,
+			);
 			productName = MeikDataBase;
 			productReference = A564552F2A9D406C00E47B5B /* MeikDataBase.app */;
 			productType = "com.apple.product-type.application";
@@ -95,7 +207,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					A564552E2A9D406C00E47B5B = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -111,6 +223,9 @@
 				Base,
 			);
 			mainGroup = A56455262A9D406C00E47B5B;
+			packageReferences = (
+				A53AEC292A9E527D00B95361 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = A56455302A9D406C00E47B5B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,8 +240,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5D40E0A2A9D63F800E639C0 /* GoogleService-Info.plist in Resources */,
+				A53AEC3A2A9EE64000B95361 /* MeikLogo.jpg in Resources */,
 				A564553A2A9D406D00E47B5B /* Preview Assets.xcassets in Resources */,
 				A56455372A9D406D00E47B5B /* Assets.xcassets in Resources */,
+				A5D40DEC2A9D4DF800E639C0 /* 6KihrwCTtOO3vA7yAU3Q9K3j6gu1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +255,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A56455352A9D406C00E47B5B /* ContentView.swift in Sources */,
+				A5D40DEE2A9D501200E639C0 /* SearchTokenMeikListView.swift in Sources */,
+				A53AEC352A9E73DF00B95361 /* RegisterView.swift in Sources */,
+				A5D40E082A9D5BF700E639C0 /* LogInViewModel.swift in Sources */,
+				A56455572A9D498C00E47B5B /* MeikCardView.swift in Sources */,
+				A56455352A9D406C00E47B5B /* MainView.swift in Sources */,
+				A53965002AA7E2F100CBC384 /* BarGraph.swift in Sources */,
 				A56455332A9D406C00E47B5B /* MeikDataBaseApp.swift in Sources */,
+				A5D40DF82A9D514300E639C0 /* MeikListViewModel.swift in Sources */,
+				A53AEC332A9E737700B95361 /* RegisterViewModel.swift in Sources */,
+				A5D40E062A9D5BCC00E639C0 /* LogIn.swift in Sources */,
+				A5D40E002A9D547800E639C0 /* SaveMeik.swift in Sources */,
+				A5D40DF02A9D503A00E639C0 /* MeikTokenListViewModel.swift in Sources */,
+				A53AEC282A9E51CA00B95361 /* UploadImageViewModel.swift in Sources */,
+				A5D40E042A9D5B7C00E639C0 /* MainViewModel.swift in Sources */,
+				A5D40DEA2A9D4A3300E639C0 /* MeikModel.swift in Sources */,
+				A56455512A9D472A00E47B5B /* ImageExtensions.swift in Sources */,
+				A53AEC372A9E75C700B95361 /* ProfileView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +314,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -241,6 +375,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -264,27 +399,34 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MeikDataBase/MeikDataBase.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MeikDataBase/Preview Content\"";
 				DEVELOPMENT_TEAM = M8JN2ZD988;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MeikDataBase/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MeetYourMeiks;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please Allow To View your CameraRoll";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.MeikProject.MeikDataBase;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MeikProject.MaikDataBase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -293,17 +435,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MeikDataBase/MeikDataBase.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MeikDataBase/Preview Content\"";
 				DEVELOPMENT_TEAM = M8JN2ZD988;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MeikDataBase/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MeetYourMeiks;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please Allow To View your CameraRoll";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,9 +457,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.MeikProject.MeikDataBase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -339,6 +488,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A53AEC292A9E527D00B95361 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A53AEC2A2A9E527D00B95361 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A53AEC292A9E527D00B95361 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		A53AEC2C2A9E527D00B95361 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A53AEC292A9E527D00B95361 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		A53AEC2E2A9E527D00B95361 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A53AEC292A9E527D00B95361 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		A53AEC302A9E527D00B95361 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A53AEC292A9E527D00B95361 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A56455272A9D406C00E47B5B /* Project object */;
 }
